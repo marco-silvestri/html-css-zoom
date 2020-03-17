@@ -31,6 +31,8 @@ body {
   background: #555;
 }
 
+/* CAM VIEW ELEMENTS */
+
 .cam-view {
   flex-grow: 1;
   width: 1200px;
@@ -38,6 +40,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 10px 0;
 }
 
 .cam-view__user {
@@ -84,7 +87,40 @@ body {
   object-fit: cover;
 }
 
+/* ACTION BAR ELEMENTS */
+
 .action-bar{
+  display: flex;
   width: 100%;
   background: #555;
+  align-items: flex-start;
 }
+
+.action-bar__btn__wrapper {
+
+}
+
+.action-bar__btn__wrapper:not(:first-child) {
+  margin-left: 50px;
+}
+
+.action-bar__btn__wrapper__icon {
+
+}
+
+.action-bar__btn__wrapper__label {
+
+}
+/*
+.action-bar__btn__wrapper__self-actions {
+  align-self: flex-start;
+}
+
+.action-bar__btn__wrapper__global-actions {
+  align-self: center;
+}
+
+.action-bar__btn__wrapper__end-meeting {
+  align-self: flex-end;
+}
+*/
