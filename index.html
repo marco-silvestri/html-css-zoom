@@ -13,9 +13,18 @@
   </head>
   <body>
     <div class="main-app">
+      <!-- TOP BAR with info -->
       <div class="top-bar text-center">
         <span>Total non-video participants: 4</span>
+        <i class="fas fa-chevron-down"></i>
+        <div class="top-bar__btn top-bar__btn__speaker">
+          Speaker view
+        </div>
+        <div class="top-bar__btn top-bar__btn__full-screen">
+          <i class="fas fa-arrows-alt"></i>
+        </div>
       </div>
+      <!-- Main section with CAM VIEW -->
       <div class="cam-view">
         <div class="cam-view__user">
           <img src="https://i.pravatar.cc/400?img=1" alt="User 1">
@@ -64,6 +73,7 @@
           <img src="https://i.pravatar.cc/400?img=15" alt="User 15">
         </div>
       </div>
+      <!-- ACTION BAR divided in 3 contextual groups -->
       <div class="action-bar text-center">
         <div class="action-bar__self-actions">
           <div class="action-bar__btn">
@@ -81,40 +91,40 @@
         </div>
         <div class="action-bar__global-actions">
           <div class="action-bar__btn">
-            <i class="fas fa-microphone-slash action-bar__btn__icon"></i>
+            <i class="fas fa-user-plus action-bar__btn__icon"></i>
             <span class="action-bar__btn__label">
               Invite
             </span>
           </div>
           <div class="action-bar__btn">
-            <i class="fas fa-video-slash action-bar__btn__icon"></i>
+            <i class="fas fa-users action-bar__btn__icon"></i>
             <span class="action-bar__btn__label">
               Manage Participants
             </span>
           </div>
           <div class="action-bar__btn">
-            <i class="fas fa-video-slash action-bar__btn__icon"></i>
+            <i class="fas fa-share-square action-bar__btn__icon action-bar__btn__icon--green"></i>
             <span class="action-bar__btn__label">
               Share Screen
             </span>
           </div>
           <div class="action-bar__btn">
-            <i class="fas fa-video-slash action-bar__btn__icon"></i>
+            <i class="fas fa-comment-dots action-bar__btn__icon"></i>
             <span class="action-bar__btn__label">
               Chat
             </span>
           </div>
           <div class="action-bar__btn">
-            <i class="fas fa-video-slash action-bar__btn__icon"></i>
-            <span class="action-bar__btn__label">
+            <i class="fas fa-circle action-bar__btn__icon action-bar__btn__icon--red"></i>
+            <span class="action-bar__btn__label ">
               Record
             </span>
           </div>
         </div>
         <div class="action-bar__end-meeting">
           <div class="action-bar__btn">
-            <span class="action-bar__btn__label">
-              Unmute
+            <span class="action-bar__btn__label action-bar__btn__label--red">
+              End Meeting
             </span>
           </div>
         </div>
