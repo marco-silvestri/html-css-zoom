@@ -91,36 +91,39 @@ body {
 
 .action-bar{
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   background: #555;
-  align-items: flex-start;
 }
 
-.action-bar__btn__wrapper {
+.action-bar__btn {
+  display: inline-block;
+}
+
+.action-bar__btn:not(:first-child) {
+  margin-left: 10px;
+}
+
+.action-bar__btn__icon {
 
 }
 
-.action-bar__btn__wrapper:not(:first-child) {
-  margin-left: 50px;
+.action-bar__btn__label {
+  font-size: 12px;
+  display: block;
 }
 
-.action-bar__btn__wrapper__icon {
-
+.action-bar__self-actions {
+  margin-left: 10px;
+  max-width: 20%;
 }
 
-.action-bar__btn__wrapper__label {
-
-}
-/*
-.action-bar__btn__wrapper__self-actions {
-  align-self: flex-start;
+.action-bar__global-actions {
+  max-width: 70%;
 }
 
-.action-bar__btn__wrapper__global-actions {
-  align-self: center;
+.action-bar__end-meeting {
+  margin-right: 10px;
+  max-width: 10%;
 }
-
-.action-bar__btn__wrapper__end-meeting {
-  align-self: flex-end;
-}
-*/
