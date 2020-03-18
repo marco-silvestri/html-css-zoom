@@ -121,7 +121,7 @@ body {
   justify-content: space-between;
   width: 100%;
   background: #555;
-  padding-top: 10px;
+  /*padding-top: 10px;*/
 }
 
 .action-bar__btn {
@@ -151,7 +151,8 @@ body {
 
 .action-bar__self-actions {
   margin-left: 10px;
-  max-width: 20%;
+
+  /*max-width: 20%;*/
 }
 
 .action-bar__btn__label--red {
@@ -170,10 +171,10 @@ body {
 }
 
 .action-bar__global-actions {
-  max-width: 70%;
+  /*max-width: 70%;*/
 }
 
 .action-bar__end-meeting {
   margin-right: 10px;
-  max-width: 10%;
+/*  max-width: 10%;*/
 }
